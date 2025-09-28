@@ -1,0 +1,7 @@
+1. Overall Goal: Does the visualization clearly show the structure and details of the Lobster?
+
+2. Boundary Clearity: Are surface details and boundaries of the lobster well-defined?
+
+3. Correct Color: Is the color of the lobster mimic a real one? (red-orange)
+
+4. QA: The lobster only has 7 walking legs, one of them on the right side of its body is missing.

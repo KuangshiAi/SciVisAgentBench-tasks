@@ -1,0 +1,6 @@
+Duct Flow
+Description: A wall-bounded flow in a duct.
+Data Type: float32
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 193x194x1000

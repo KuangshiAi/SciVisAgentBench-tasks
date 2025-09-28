@@ -1,0 +1,6 @@
+Nucleon
+Description: Simulation of the two-body distribution probability of a nucleon in the atomic nucleus 16O if a second nucleon is known to be positioned at r'=(2 fm,0,0).
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 41x41x41

@@ -1,0 +1,6 @@
+Tooth
+Description: 
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 103x94x161

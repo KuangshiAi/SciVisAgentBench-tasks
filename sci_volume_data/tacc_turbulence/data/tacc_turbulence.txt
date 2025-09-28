@@ -1,0 +1,6 @@
+Isotropic Turbulence
+Description: The dataset represents a time step from an isotropic turbulence simulation. A single variable, enstrophy, is represented on a Cartesian grid.
+Data Type: float32
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256

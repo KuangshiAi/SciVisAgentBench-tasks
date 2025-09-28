@@ -1,0 +1,6 @@
+Boston Teapot
+Description: CT scan of the SIGGRAPH 1989 teapot with a small version of the AVS lobster inside.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x178

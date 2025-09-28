@@ -1,0 +1,5 @@
+chameleon (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 256x256x270
+Number of Scalar Components: 1

@@ -1,0 +1,6 @@
+Hydrogen Atom
+Description: Simulation of the spatial probability distribution of the electron in an hydrogen atom, residing in a strong magnetic field.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 128x128x128

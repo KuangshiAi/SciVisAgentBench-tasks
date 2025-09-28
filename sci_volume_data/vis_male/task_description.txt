@@ -1,0 +1,16 @@
+Task:
+
+Load the Head (Visible Male) dataset from "vis_male/data/vis_male_128x256x256_uint8.raw", the information about this dataset:
+Head (Visible Male)
+Description: Male head scan
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1.57774x0.995861x1.00797
+Data Extent: 128x256x256
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "vis_male/results/vis_male.pvsm"

@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result reveal the key features of the Head MRT Angiography dataset?
+
+2. Does the volume rendering provide good insight into the internal structure?
+
+3. Are the isosurfaces placed at meaningful values?
+
+4. Is the overall visualization clear and informative?

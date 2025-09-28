@@ -1,0 +1,13 @@
+Q1: How many distinct fins are visible in the carp skeleton? List their anatomical names and corresponding counts.
+
+A1: There are 7 distinct fins in total. They are:
+1 Dorsal fin (on the top, mid-back region)
+2 Pectoral fins (one on each side, near the skull)
+2 Pelvic fins (smaller, paired fins on the underside, behind pectorals)
+1 Anal fin (on the underside, near the tail)
+1 Caudal fin (tail fin, fan-shaped)
+
+
+Q2: Estimate the ratio of skull length to overall body length, based on the visualization.
+
+A2: Skull length ≈ 20-22% of overall body length. The ratio of skull length to overall body length is approximately 1:4.5

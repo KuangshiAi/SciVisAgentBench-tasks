@@ -1,0 +1,6 @@
+Engine
+Description: CT scan of two cylinders of an engine block.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x128

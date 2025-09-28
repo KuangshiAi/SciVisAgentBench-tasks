@@ -1,0 +1,5 @@
+engine (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 256x256x128
+Number of Scalar Components: 1

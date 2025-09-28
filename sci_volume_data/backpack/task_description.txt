@@ -1,0 +1,16 @@
+Task:
+
+Load the Backpack Scan dataset from "backpack/data/backpack_512x512x373_uint16.raw", the information about this dataset:
+Backpack Scan
+Description: CT scan of a backpack filled with items.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.9766x0.9766x1.25
+Data Extent: 512x512x373
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "backpack/results/backpack.pvsm"

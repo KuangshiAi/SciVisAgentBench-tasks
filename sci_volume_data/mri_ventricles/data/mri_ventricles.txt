@@ -1,0 +1,6 @@
+Head MRI CISS
+Description: 1.5T MRT 3D CISS dataset of a human head that highlights the CSF (Cerebro-Spinal-Fluid) filled cavities of the head.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 0.9x0.9x0.9
+Data Extent: 256x256x124

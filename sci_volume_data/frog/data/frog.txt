@@ -1,0 +1,6 @@
+Frog
+Description: MRI scan of a frog as part of the Whole Frog Project.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 0.5x0.5x1
+Data Extent: 256x256x44

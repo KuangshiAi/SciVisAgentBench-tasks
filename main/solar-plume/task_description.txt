@@ -1,0 +1,18 @@
+Task:
+
+Load the tornado dataset from "solar-plume/data/solar-plume_126x126x512_float32_scalar3.raw", the information about this dataset:
+solar-plume (Vector)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 126x126x512
+Number of Scalar Components: 3
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Add a “stream tracer” filter under the tornado data to display streamline, set the "Seed type" to "Point Cloud" and set the center of point cloud to 3D position [50, 50, 320] with a radius 30, then hide the point cloud sphere.
+
+Add a "tube" filter under the "stream tracer" filter to enhance the streamline visualization. Set the radius to 0.5. In the pipeline browser panel, hide everything except the "tube" filter. 
+
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "solar-plume/results/{agent_mode}/solar-plume.pvsm"

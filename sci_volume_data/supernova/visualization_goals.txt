@@ -1,0 +1,5 @@
+1. Overall Visualization Goal: How well does the result achieve the overall goal of showing the supernova structure with two distinct isosurfaces representing different density regions?
+
+2. Does the red isosurface show low density areas (outside regions) with lower opacity?
+
+3. Does the blue isosurface show high density areas (inside regions) with higher opacity?

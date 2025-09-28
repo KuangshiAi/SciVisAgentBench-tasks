@@ -1,0 +1,19 @@
+Task:
+
+Load the tornado dataset from "tornado/data/tornado_64x64x64_float32_scalar3.raw", the information about this dataset:
+Tornado (Vector)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 64x64x64
+Number of Scalar Components: 3
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Add a “glyph” filter under the tornado data to display velocity glyph, set an appropriate “Scale Factor” so the glyphs are visible.
+
+Then add a “stream tracer” filter under the tornado data to generate streamlines. Choose “Point Cloud” as “Seed Type”, and do not show sphere.
+
+Add a “tube” filter under the stream tracer you just created to generate tubes for visualizing the streamlines. Set an appropriate radius. Make the stream tracer invisible and the tube visible. At last, render the streamlines as tubes.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "tornado/results/{agent_mode}/tornado.pvsm"

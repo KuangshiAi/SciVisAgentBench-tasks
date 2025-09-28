@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result show the flow patterns or simulation dynamics in the CSAFE Heptane Gas dataset?
+
+2. Does the volume rendering effectively show the data distribution and gradients?
+
+3. Are flow features (vortices, boundaries, etc.) clearly visible?
+
+4. Is the color map appropriate for the physical quantity being visualized?

@@ -1,0 +1,16 @@
+Task:
+
+Load the CSAFE Heptane Gas dataset from "csafe_heptane/data/csafe_heptane_302x302x302_uint8.raw", the information about this dataset:
+CSAFE Heptane Gas
+Description: A single time step from a computational simulation of a jet of heptane gas undergoing combustion.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 302x302x302
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize the flow field. Apply volume rendering with a suitable color map to show the data distribution. Add streamlines or vectors if vector data is available.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "csafe_heptane/results/csafe_heptane.pvsm"

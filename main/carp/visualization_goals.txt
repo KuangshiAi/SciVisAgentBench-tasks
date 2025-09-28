@@ -1,0 +1,7 @@
+1. Bone Isolation: Are the bones clearly visible while soft tissue and background are suppressed? Thin fin rays should be distinguishable without major loss.
+
+2. Viewpoint Selection: Does the chosen viewpoint display the entire carp skeleton (head, spine, ribs, fins, tail) without critical occlusion?
+
+3. X-ray Appearance: Does the visualization resemble an X-ray (monochrome or grayscale, transparent look, consistent lighting)?
+
+4. Correct Data Setup: Was the dataset loaded with proper spacing (0.78125 × 0.390625 × 1.0)? The carp skeleton should appear in its correct proportions without distortion (i.e., the fish shape looks anatomically normal).

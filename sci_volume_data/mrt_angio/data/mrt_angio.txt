@@ -1,0 +1,6 @@
+Head MRT Angiography
+Description: 3T MRT Time-of-Flight Angiography dataset of a human head. The dataset has been resampled into an isotropic voxel grid (hence the peculiar slice size).
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.412x0.412x0.412
+Data Extent: 416x512x112

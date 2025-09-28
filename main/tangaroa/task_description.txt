@@ -1,0 +1,19 @@
+Task:
+
+Load the tangaroa dataset from "tangaroa_300x180x120_float32_scalar3.raw", the information about this dataset:
+tangaroa (Vector)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 300x180x120
+Number of Scalar Components: 3
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Apply "streamline tracer" filter, set the "Seed Type" to point cloud, turn off the "show sphere", set the center to [81.6814, 80.708, 23.5093], and radius to 29.9
+
+Add "Ribbon" filter to the streamline tracer results and set width to 0.3, set the Display representation to Surface.
+
+In pipeline browser panel, hide everything except the ribbon filter results.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "tangaroa/results/{agent_mode}/tangaroa.pvsm"

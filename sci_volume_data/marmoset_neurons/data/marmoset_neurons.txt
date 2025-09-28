@@ -1,0 +1,6 @@
+Neurons in Marmoset Visual Cortex
+Description: Pyramidal neurons in the marmoset primary visual cortex (V1) labeled with green fluorescent protein (GFP) after injection of a psuedotyped G-deleted rabies virus in area V2. The tissue was cleared using the Sca/e technique and imaged on a Olympus 2-photon microscope at 20x magnification.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 0.497x0.497x1.5
+Data Extent: 1024x1024x314

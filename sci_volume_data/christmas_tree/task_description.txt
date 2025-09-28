@@ -1,0 +1,16 @@
+Task:
+
+Load the Christmas Tree dataset from "christmas_tree/data/christmas_tree_512x499x512_uint16.raw", the information about this dataset:
+Christmas Tree
+Description: The Christmas tree model was scanned with a Siemens Somatom Plus 4 Volume Zoom Multislice-CT scanner at the general hospital in Vienna.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 512x499x512
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "christmas_tree/results/christmas_tree.pvsm"

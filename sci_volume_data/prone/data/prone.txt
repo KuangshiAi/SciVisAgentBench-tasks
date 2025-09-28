@@ -1,0 +1,6 @@
+Colon Prone
+Description: CT scan of abdomen in prone orientation (back faces ceiling, belly faces table).
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.625x0.625x1.0
+Data Extent: 512x512x463

@@ -1,0 +1,22 @@
+Task:
+
+Load the Lobster dataset from "lobster/data/lobster_301x324x56_uint8.raw", the information about this dataset:
+Lobster
+Description: CT scan of a lobster contained in a block of resin.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1.4
+Data Extent: 301x324x56
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Visualize the scanned specimen:
+1. Create an isosurface at the specimen boundary, find a proper isovalue to show the whole structure.
+
+2. Use natural colors appropriate for the specimen (red-orange for lobster)
+
+3. Analyze the visualization and answer the following questions:
+Q1: How many walking legs does the lobster in the visualization have?
+
+4. Save your work:
+Save the ParaView state as "lobster/results/{agent_mode}/lobster.pvsm".
+Save the answers to the analysis questions in plain text as "lobster/results/{agent_mode}/answers.txt".

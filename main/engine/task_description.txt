@@ -1,0 +1,19 @@
+Task:
+
+Load the vortex dataset from "engine/data/engine_256x256x128_uint8.raw", the information about this dataset:
+engine (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 256x256x128
+Number of Scalar Components: 1
+
+Instructions:
+
+1. Load the dataset into ParaView.
+
+2. Apply the volume rendering to visualize the engine dataset
+
+3. Adjust the transfer function, let the outer part more transparent and the inner part more solid. Use light blue for the outer part and orange for the inner part.
+
+4. Save your work:
+Save the ParaView state as "engine/results/{agent_mode}/engine.pvsm".

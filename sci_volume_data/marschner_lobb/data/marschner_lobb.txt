@@ -1,0 +1,6 @@
+Marschner-Lobb
+Description: High frequencies where 99% of the sinusoids are right below the Nyquist frequency.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 41x41x41

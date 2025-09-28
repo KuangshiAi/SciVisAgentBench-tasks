@@ -1,0 +1,6 @@
+Lobster
+Description: CT scan of a lobster contained in a block of resin.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1.4
+Data Extent: 301x324x56

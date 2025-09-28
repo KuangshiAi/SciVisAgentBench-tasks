@@ -1,0 +1,45 @@
+providers:
+  - id: python:general_mcp_client.py
+    config:
+      cache: false
+      provider: litellm
+      model: gpt-4o
+      baseUrl: https://livai-api.llnl.gov/v1
+      verifySSL: false
+      useProxy: false
+           
+      mcp:
+        enabled: true
+        server:
+          command: "C:/Users/miao1/AppData/Local/anaconda3/envs/mcp/python.exe"
+          args: ["-u", "D:/Development/napari-mcp/src/napari_mcp/napari_mcp_server.py"]
+          cwd: "D:/Development/napari-mcp/eval"
+          name: napari-server
+          env:
+            PORT: "3000"        
+        temperature: 0
+        # max_tokens: 4096
+        executeTools: true
+
+prompts:
+  - |
+    {{question}}
+
+# Configure default test settings for model-graded assertions
+defaultTest:
+  options:
+    # Override the default provider for model-graded assertions
+    provider:
+      id: litellm:gpt-4o
+      config:
+        apiBaseUrl: https://livai-api.llnl.gov/v1
+        # For OpenAI-compatible endpoints served by LiteLLM
+        openaiCompatible: true
+        verifySSL: false
+        useProxy: false
+
+tests: file://test_basic_functions.yaml
+
+evaluateOptions:
+  cache: false
+  maxConcurrency: 1    

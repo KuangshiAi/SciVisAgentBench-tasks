@@ -1,0 +1,5 @@
+solar-plume (Vector)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 126x126x512
+Number of Scalar Components: 3

@@ -1,0 +1,6 @@
+Stented Abdominal Aorta
+Description: CT Scan of the abdomen and pelvis. The dataset contains also a stent in the abdominal aorta. No contrast agent was used to enhance the blood vessels.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.8398x0.8398x3.2
+Data Extent: 512x512x174

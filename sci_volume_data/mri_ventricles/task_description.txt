@@ -1,0 +1,16 @@
+Task:
+
+Load the Head MRI CISS dataset from "mri_ventricles/data/mri_ventricles_256x256x124_uint8.raw", the information about this dataset:
+Head MRI CISS
+Description: 1.5T MRT 3D CISS dataset of a human head that highlights the CSF (Cerebro-Spinal-Fluid) filled cavities of the head.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 0.9x0.9x0.9
+Data Extent: 256x256x124
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize the flow field. Apply volume rendering with a suitable color map to show the data distribution. Add streamlines or vectors if vector data is available.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "mri_ventricles/results/mri_ventricles.pvsm"

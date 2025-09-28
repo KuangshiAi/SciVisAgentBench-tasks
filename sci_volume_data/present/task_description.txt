@@ -1,0 +1,16 @@
+Task:
+
+Load the Christmas Present dataset from "present/data/present_492x492x442_uint16.raw", the information about this dataset:
+Christmas Present
+Description: An industrial CT scan of a christmas present.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 492x492x442
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "present/results/present.pvsm"

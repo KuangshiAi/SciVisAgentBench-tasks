@@ -1,0 +1,6 @@
+MRI Woman
+Description: MRI scan of a woman's head
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1.5
+Data Extent: 256x256x109

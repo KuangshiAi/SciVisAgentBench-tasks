@@ -1,0 +1,34 @@
+providers:
+  - id: python:general_mcp_client.py
+    config:
+      use_claude: true
+      model: claude-sonnet-4-20250514
+      mcp:
+        enabled: true
+        server:
+          command: "C:/Users/miao1/AppData/Local/anaconda3/envs/mcp/python.exe"
+          args: ["-u", "D:/Development/napari-mcp/src/napari_mcp/napari_mcp_server.py"]
+          cwd: "D:/Development/napari-mcp/eval"
+          name: napari-server
+          env:
+            PORT: "3000"
+        temperature: 0
+        max_tokens: 4096
+        executeTools: true
+
+prompts:
+  - |
+    {{question}}
+
+# Configure default test settings for model-graded assertions
+defaultTest:
+  options:
+    runSerially: true
+    provider: anthropic:messages:claude-sonnet-4-20250514
+
+tests: file://test_basic_functions.yaml
+
+
+evaluateOptions:
+  cache: false
+  maxConcurrency: 1    

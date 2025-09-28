@@ -1,0 +1,23 @@
+Task:
+
+Load the vortex dataset from "vortex/data/vortex_128x128x128_float32.raw", the information about this dataset:
+vortex (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 128x128x128
+Number of Scalar Components: 1
+
+Instructions:
+
+1. Load the dataset into ParaView.
+
+2. Leverage "contour" filter to achieve iso-surface rendering. In pipeline browser panel, hide everything except the "contour" fileter.
+
+3. In properties panel of "contour" filter, set isosurface value to -0.2, use Solid Color and set the color as beige.
+
+4. Enable Ambient occlusion by toggle the "Use Ambient Occlusion" button in the Render Passes.
+
+5. Add head light with light inspector, set "Coords" as Camera, "Intentsity" to 0.2, Type to "Directional".
+
+6. Save your work:
+Save the ParaView state as "vortex/results/{agent_mode}/vortex.pvsm".

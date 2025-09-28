@@ -1,0 +1,5 @@
+1. Overall Visualization Goal: How well does the result reveal the tangaroa flow structures using streamlines expanded into surfaces with the Ribbon filter?
+
+2. Streamline Seeding: Are streamlines correctly seeded from a Point Cloud centered at [81.6814, 80.708, 23.5093] with radius 29.9, and is the seed sphere hidden?
+
+3. Ribbon Visualization: Are the streamlines rendered with the Ribbon filter, set to width 0.3, with Display representation as Surface, effectively showing flow surfaces?

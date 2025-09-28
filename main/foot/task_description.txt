@@ -1,0 +1,20 @@
+Task:
+
+Load the Foot dataset from "foot/data/foot_256x256x256_uint8.raw", the information about this dataset:
+Foot
+Description: Rotational C-arm x-ray scan of a human foot. Tissue and bone are present in the dataset.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Visualize the anatomical structures:
+1. Apply volume rendering with an X-ray transfer function that distinguishes soft tissues and bones. Bones with darker color, and soft tissue with lighter color.
+
+2. Analyze the visualization and answer the following questions:
+Q1: In the visualization, which structures are fully visible: the phalanges, the metatarsals, or both?
+
+3. Save your work:
+Save the ParaView state as "foot/results/{agent_mode}/foot.pvsm".
+Save the answers to the analysis questions in plain text as "foot/results/{agent_mode}/answers.txt".

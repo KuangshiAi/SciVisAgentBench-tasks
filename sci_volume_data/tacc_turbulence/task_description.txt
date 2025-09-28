@@ -1,0 +1,16 @@
+Task:
+
+Load the Isotropic Turbulence dataset from "tacc_turbulence/data/tacc_turbulence_256x256x256_float32.raw", the information about this dataset:
+Isotropic Turbulence
+Description: The dataset represents a time step from an isotropic turbulence simulation. A single variable, enstrophy, is represented on a Cartesian grid.
+Data Type: float32
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize the flow field. Apply volume rendering with a suitable color map to show the data distribution. Add streamlines or vectors if vector data is available.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "tacc_turbulence/results/tacc_turbulence.pvsm"

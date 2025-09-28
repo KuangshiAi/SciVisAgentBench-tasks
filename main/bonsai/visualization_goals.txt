@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result achieve the overall goal of showing a potted tree with the specified colors?
+
+2. Brown Pot Visualization: Does the result show the pot portion in brown color?
+
+3. Silver Branch Visualization: Does the result show the branch/trunk portion in silver color?
+
+4. Golden Leaves Visualization: Does the result show the leaves portion in golden color?

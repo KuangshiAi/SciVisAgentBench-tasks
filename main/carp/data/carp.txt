@@ -1,0 +1,5 @@
+Carp (Scalar)
+Data Scalar Type: unsigned short
+Data Byte Order: little Endian
+Data Spacing: 0.78125x0.390625x1
+Data Extent: 256x256x512

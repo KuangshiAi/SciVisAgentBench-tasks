@@ -1,0 +1,6 @@
+Fuel
+Description: Simulation of fuel injection into a combustion chamber. The higher the density value, the less presence of air.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 64x64x64

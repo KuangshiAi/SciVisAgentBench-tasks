@@ -1,0 +1,6 @@
+Head Aneurism
+Description: Rotational angiography scan of a head with an aneurysm. Only contrasted blood vessels are visible.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.1953x0.1953x0.1953
+Data Extent: 512x512x512

@@ -1,0 +1,6 @@
+Christmas Tree
+Description: The Christmas tree model was scanned with a Siemens Somatom Plus 4 Volume Zoom Multislice-CT scanner at the general hospital in Vienna.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 512x499x512

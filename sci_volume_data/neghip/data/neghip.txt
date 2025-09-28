@@ -1,0 +1,6 @@
+Neghip
+Description: Simulation of the spatial probability distribution of the electrons in a high potential protein molecule.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 64x64x64

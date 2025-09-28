@@ -1,0 +1,6 @@
+Silicium
+Description: Simulation of a silicium grid.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 98x34x34

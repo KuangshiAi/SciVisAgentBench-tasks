@@ -1,0 +1,19 @@
+Task:
+
+Load the Head MRT Angiography dataset from "mrt_angio/data/mrt_angio_416x512x112_uint16.raw", the information about this dataset:
+Head MRT Angiography
+Description: 3T MRT Time-of-Flight Angiography dataset of a human head. The dataset has been resampled into an isotropic voxel grid (hence the peculiar slice size).
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.412x0.412x0.412
+Data Extent: 416x512x112
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it using appropriate techniques:
+1. Apply volume rendering with a suitable transfer function to reveal internal structures
+2. Extract at least one meaningful isosurface
+3. Choose appropriate colors and opacity values for clarity
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "mrt_angio/results/mrt_angio.pvsm"

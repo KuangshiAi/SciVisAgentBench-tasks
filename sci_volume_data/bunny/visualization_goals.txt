@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result reveal the anatomical structures in the Bunny dataset?
+
+2. Does the visualization clearly distinguish between different tissue types or density regions?
+
+3. Are the isosurfaces positioned at appropriate values to highlight key features?
+
+4. Is the color scheme and opacity appropriate for medical visualization?

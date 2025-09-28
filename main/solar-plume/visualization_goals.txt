@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result reveal solar-plume flow structures using streamlines rendered as tubes, with emphasis on the region near [50, 50, 320]?
+
+2. Seeding (Point Cloud): Are streamlines seeded with a Point Cloud centered at [50, 50, 320] with a radius of 30, and is the seed sphere hidden?
+
+3. Streamline Visualization: Do the streamlines follow the flow patterns effectively and provide adequate coverage of the plume region?
+
+4. Tube Rendering & Visibility: Are the streamlines rendered as tubes with radius 0.5, and is only the Tube filter visible (Stream Tracer and seed display hidden)?

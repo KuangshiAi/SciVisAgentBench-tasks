@@ -1,0 +1,19 @@
+Task:
+
+Load the chameleon dataset from "chameleon/data/chameleon_256x256x270_float32.raw", the information about this dataset:
+chameleon (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Extent: 256x256x270
+Number of Scalar Components: 1
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Apply the volume rendering to visualize the chameleon dataset
+
+Adjust the transfer function to highlight the bony structures and skin in an X-ray style.
+
+Adjust the camera position and focus on the head part of the chameleon
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "chameleon/results/{agent_mode}/chameleon.pvsm"

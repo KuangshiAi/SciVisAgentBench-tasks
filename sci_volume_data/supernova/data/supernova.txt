@@ -1,0 +1,5 @@
+Supernova (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256

@@ -1,0 +1,6 @@
+Christmas Present
+Description: An industrial CT scan of a christmas present.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 492x492x442

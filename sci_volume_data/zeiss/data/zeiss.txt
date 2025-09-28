@@ -1,0 +1,6 @@
+Zeiss
+Description: Car part reconstructed from projections.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 680x680x680

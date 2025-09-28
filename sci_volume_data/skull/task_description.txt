@@ -1,0 +1,16 @@
+Task:
+
+Load the Skull dataset from "skull/data/skull_256x256x256_uint8.raw", the information about this dataset:
+Skull
+Description: Rotational C-arm x-ray scan of phantom of a human skull.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "skull/results/skull.pvsm"

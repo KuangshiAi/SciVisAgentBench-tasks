@@ -1,0 +1,6 @@
+Head (Visible Male)
+Description: Male head scan
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1.57774x0.995861x1.00797
+Data Extent: 128x256x256

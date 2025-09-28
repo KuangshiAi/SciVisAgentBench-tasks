@@ -1,0 +1,6 @@
+Leg of Statue
+Description: CT scan of a leg of a bronze statue.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x4
+Data Extent: 341x341x93

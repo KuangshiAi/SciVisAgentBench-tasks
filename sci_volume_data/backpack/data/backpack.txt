@@ -1,0 +1,6 @@
+Backpack Scan
+Description: CT scan of a backpack filled with items.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.9766x0.9766x1.25
+Data Extent: 512x512x373

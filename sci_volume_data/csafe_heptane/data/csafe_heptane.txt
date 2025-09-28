@@ -1,0 +1,6 @@
+CSAFE Heptane Gas
+Description: A single time step from a computational simulation of a jet of heptane gas undergoing combustion.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 302x302x302

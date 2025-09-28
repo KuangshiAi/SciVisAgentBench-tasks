@@ -1,0 +1,19 @@
+Task:
+
+Load the Tooth dataset from "tooth/data/tooth_103x94x161_uint8.raw", the information about this dataset:
+Tooth
+Description: 
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 103x94x161
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it using appropriate techniques:
+1. Apply volume rendering with a suitable transfer function to reveal internal structures
+2. Extract at least one meaningful isosurface
+3. Choose appropriate colors and opacity values for clarity
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "tooth/results/tooth.pvsm"

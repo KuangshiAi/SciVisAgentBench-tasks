@@ -1,0 +1,16 @@
+Task:
+
+Load the Bunny dataset from "bunny/data/bunny_512x512x361_uint16.raw", the information about this dataset:
+Bunny
+Description: A CT scan of the Stanford Bunny. The greyscale units are Hounsfield units, denoting electron-density of the subject; the scale units are in millimeters. The scan was completed 28 January 2000.
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.337891x0.337891x0.5
+Data Extent: 512x512x361
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "bunny/results/bunny.pvsm"

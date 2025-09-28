@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: Does the result present a clean, X-ray–style volume rendering where the chameleon’s bony structures are clearly emphasized and soft tissue is faint but discernible?
+
+2. Data Loading Correctness: Is the RAW volume loaded with the specified metadata (float32, little-endian, 256×256×270, 1 component) so that the histogram looks reasonable and the anatomy is not flipped or distorted?
+
+3. Transfer Function Quality: Does the grayscale transfer function make low-intensity tissue mostly transparent while assigning higher opacity to bones/skin ridges, yielding good depth cues without over-saturation or banding?
+
+4. Camera & Framing: Is the camera positioned and zoomed to focus on the chameleon’s head, keeping it sharply framed (no clipping), with a stable viewpoint that highlights key anatomical details?

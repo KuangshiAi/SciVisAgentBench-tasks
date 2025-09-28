@@ -1,0 +1,16 @@
+Task:
+
+Load the Frog dataset from "frog/data/frog_256x256x44_uint8.raw", the information about this dataset:
+Frog
+Description: MRI scan of a frog as part of the Whole Frog Project.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 0.5x0.5x1
+Data Extent: 256x256x44
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "frog/results/frog.pvsm"

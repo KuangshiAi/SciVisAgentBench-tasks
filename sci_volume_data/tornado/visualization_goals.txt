@@ -1,0 +1,7 @@
+1. Overall Visualization Goal: How well does the result achieve the overall goal of showing tornado flow patterns with glyphs and streamlines?
+
+2. Glyph Visualization: Does the result show velocity glyphs that are appropriately sized and visible?
+
+3. Streamline Visualization: Does the result show streamlines that follow the flow patterns effectively?
+
+4. Tube Rendering: Are the streamlines rendered as tubes with appropriate thickness?

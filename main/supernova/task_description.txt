@@ -1,0 +1,15 @@
+Task:
+
+Load the supernova dataset from "supernova/data/supernova_256x256x256_float32.raw", the information about this dataset:
+Supernova (Scalar)
+Data Scalar Type: float
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 256x256x256
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract two isosurfaces. One of them use color red, showing areas with low density (isovalue 40 and opacity 0.4), while the other use color blue, showing areas with high density (isovalue 150 and opacity 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above. Only make the two isosurfaces visible.
+
+Finally, save the paraview state as "supernova/results/{agent_mode}/supernova.pvsm"

@@ -1,0 +1,5 @@
+1. Overall Visualization Goal: How well does the result present a clear iso-surface rendering of the vortex scalar field at value −0.2?
+
+2. Contour Appearance: Is the contour rendered with Solid Color set to beige and made the only visible object in the pipeline?
+
+3. Lighting & Shading: Are Ambient Occlusion and a directional head light (Coords = Camera, Intensity = 0.2) applied?

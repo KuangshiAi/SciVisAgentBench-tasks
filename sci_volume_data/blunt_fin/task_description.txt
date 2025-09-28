@@ -1,0 +1,19 @@
+Task:
+
+Load the Blunt Fin dataset from "blunt_fin/data/blunt_fin_256x128x64_uint8.raw", the information about this dataset:
+Blunt Fin
+Description: 
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x0.75x1
+Data Extent: 256x128x64
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it using appropriate techniques:
+1. Apply volume rendering with a suitable transfer function to reveal internal structures
+2. Extract at least one meaningful isosurface
+3. Choose appropriate colors and opacity values for clarity
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "blunt_fin/results/blunt_fin.pvsm"

@@ -1,0 +1,16 @@
+Task:
+
+Load the MRI Woman dataset from "mri_woman/data/mri_woman_256x256x109_uint16.raw", the information about this dataset:
+MRI Woman
+Description: MRI scan of a woman's head
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 1x1x1.5
+Data Extent: 256x256x109
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "mri_woman/results/mri_woman.pvsm"

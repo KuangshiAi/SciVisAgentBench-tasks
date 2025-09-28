@@ -1,0 +1,26 @@
+Task:
+
+Load the carp dataset from "carp/data/carp_256x256x512_uint16.raw", the information about this dataset:
+Carp (Scalar)
+Data Scalar Type: unsigned short
+Data Byte Order: little Endian
+Data Spacing: 0.78125x0.390625x1
+Data Extent: 256x256x512
+
+Instructions:
+
+1. Load the dataset into ParaView.
+
+2. Apply volume rendering to visualize the carp skeleton.
+
+3. Adjust the transfer function to highlight only the bony structures in an X-ray style (suppressing soft tissue).
+
+4. Optimize the viewpoint to display the full skeleton, ensuring the head, spine, and fins are all clearly visible in a single frame.
+
+5. Analyze the visualization and answer the following questions:
+Q1: How many distinct fins are visible in the carp skeleton? List their anatomical names and corresponding counts.
+Q2: Estimate the ratio of skull length to overall body length, based on the visualization.
+
+6. Save your work:
+Save the ParaView state as "carp/results/{agent_mode}/carp.pvsm".
+Save the answers to the analysis questions in plain text as "carp/results/{agent_mode}/answers.txt".

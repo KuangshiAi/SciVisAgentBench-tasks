@@ -1,0 +1,16 @@
+Task:
+
+Load the Carp dataset from "carp/data/carp_256x256x512_uint16.raw", the information about this dataset:
+Carp
+Description: CT scan of a carp fish
+Data Type: uint16
+Data Byte Order: little Endian
+Data Spacing: 0.78125x0.390625x1
+Data Extent: 256x256x512
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize it and extract isosurfaces to reveal the internal structures. Create one isosurface for soft tissue (lower isovalue, color: red, opacity: 0.3) and another for bone/dense structures (higher isovalue, color: white, opacity: 0.8).
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "carp/results/carp.pvsm"

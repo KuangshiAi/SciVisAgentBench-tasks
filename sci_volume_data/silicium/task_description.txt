@@ -1,0 +1,16 @@
+Task:
+
+Load the Silicium dataset from "silicium/data/silicium_98x34x34_uint8.raw", the information about this dataset:
+Silicium
+Description: Simulation of a silicium grid.
+Data Type: uint8
+Data Byte Order: little Endian
+Data Spacing: 1x1x1
+Data Extent: 98x34x34
+Data loading is very important, make sure you correctly load the dataset according to their features.
+
+Then visualize the flow field. Apply volume rendering with a suitable color map to show the data distribution. Add streamlines or vectors if vector data is available.
+
+Please think step by step and make sure to fulfill all the visualization goals mentioned above.
+
+Finally, save the paraview state as "silicium/results/silicium.pvsm"
