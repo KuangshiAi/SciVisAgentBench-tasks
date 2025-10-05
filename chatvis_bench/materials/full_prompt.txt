@@ -1,0 +1,15 @@
+Please generate a ParaView Python script for the following operations.
+I want to compare two datasets side by side.
+Create two views each of size 900 pixels wide x 1400 pixels high.
+In the left view, read the dataset in the file "neg10_prediction.vtr".
+In the right view, read the dataset in the file "neg10_ground_truth.vtr".
+In both views, convert the "Intensity" and "Phase" variables from cell to point data.
+In both views, take an isovolume of the "Intensity" variable in the range of [0.2, 1.0].
+In both views, clip the data with a clipping plane located at (32.0, 32.0, 32.0) and +x normal direction.
+In both views, use the Viridis (matplotlib) color map for the "Phase" variable, scaled to the data range.
+Add a colormap legend in both views.
+Label the left view "NN Prediction".
+Label the right view "Ground Truth".
+Orient the camera to look in the (-1, 0, -1) direction.
+Position the camera so that the dataset fits in the view.
+Save a screenshot of both views in the file "comparison-screenshot.png"

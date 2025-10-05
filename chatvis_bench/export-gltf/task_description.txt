@@ -1,0 +1,12 @@
+Create a wavelet object.
+Create a surface rendering of the wavelet object and color by RTData.
+Scale the color map to the data, and don't display the color bar or the orientation axes.
+Export the view to "export-gltf/results/{agent_mode}/ExportedGLTF.gltf".
+
+Next load the file "export-gltf/results/{agent_mode}/ExportedGLTF.gltf" and display it as a surface.
+Color this object by TEXCOORD_0.
+Scale the color map to the data, and don't display the color bar or the orientation axes.
+Use the 'Cool to Warm' colormap.
+
+Save a screenshot to the file "export-gltf/results/{agent_mode}/export-gltf.png".
+Finally, save the ParaView state as "export-gltf/results/{agent_mode}/export-gltf.pvsm"

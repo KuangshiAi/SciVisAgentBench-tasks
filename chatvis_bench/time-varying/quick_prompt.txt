@@ -1,0 +1,13 @@
+Please generate a ParaView Python script for the following operations.
+Read the dataset in the file "time-varying/can.ex2", and color the data by the EQPS variable.
+Viewing in the +y direction, play an animation through the time steps, with visible color bar legend.
+Rescale the data range to last time step, and play the animation again.
+Create a second linked render view to the right of the first, applying a temporal interpolater to the second view.
+Play the animation simultaneously in both views, and save the animation of both views in "time-varying-video.avi"
+Print the following statistics: average value of EQPS over all locations and all time steps, average value of EQPS over
+all locations in the first half of the time steps, average value of EQPS over all locations in the even numbered time
+steps, and variance of EQPS over all locations and all the time steps.
+
+
+
+

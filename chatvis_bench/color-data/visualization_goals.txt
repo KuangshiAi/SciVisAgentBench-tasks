@@ -1,0 +1,7 @@
+1. Calculator Function: Is the calculator properly implemented with the specified vector function combining RTData and coordinate components?
+
+2. Color Transfer Function: Is the color transfer function correctly applied with cool to warm color mapping scaled to the data range?
+
+3. Surface Coloring: Is the surface representation properly colored by the x coordinate of the calculated result?
+
+4. Color Bar Display: Is the color bar/legend visible and properly displaying the color mapping scale and values?

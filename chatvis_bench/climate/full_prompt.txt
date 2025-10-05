@@ -1,0 +1,14 @@
+I would like to use ParaView to visualize a dataset of ocean currents.
+Please generate a ParaView Python script for the following operations.
+Read in the file named 'mpas.vtp'.
+Apply a calculator filter to compute the following function:
+(-velocity_X*sin(coordsX*0.0174533) + velocity_Y*cos(coordsX*0.0174533)) * iHat + (-velocity_X * sin(coordsY*0.0174533) * cos(coordsX*0.0174533) - velocity_Y * sin(coordsY*0.0174533) * sin(coordsX*0.0174533) + velocity_Z * cos(coordsY*0.0174533)) * jHat + 0*kHat
+Render the computed values using a tube filter with 0.05 as the tube radius.
+Color the tubes by the magnitude of the velocity.
+Light the tubes with the maximum shininess and include normals in the lighting.
+Add cone glyphs to show the direction of the velocity.
+The glyphs are composed of 10 polygons, having a radius 0 0.15, a height of 0.5, and a scaling factor of 0.5.
+View the result in the -z direction.
+Adjust the view so that the tubes occupy the 90% of the image.
+Save a screenshot of the result in the filename 'soma-screenshot.png'.
+The rendered view and saved screenshot should be 2294 x 1440 pixels with a white background.

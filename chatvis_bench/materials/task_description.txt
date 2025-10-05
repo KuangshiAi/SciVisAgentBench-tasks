@@ -1,0 +1,9 @@
+Compare two datasets in two views side by side each 900 pixels wide x 1400 pixels high.
+Read the dataset "materials/data/materials_prediction.vtr" in the left view and "materials/data/materials_ground_truth.vtr" in the right view.
+In both views, convert the "Intensity" and "Phase" variables from cell to point data.
+In both views, take an isovolume of the "Intensity" variable in the range of [0.2, 1.0], clipped with a plane at (32.0, 32.0, 32.0) and +x normal direction.
+Color both views with the Viridis (matplotlib) color map for the "Phase" variable, scaled to the data range, including a colormap legend in both views.
+Label the left view "NN Prediction" and the right view "Ground Truth".
+Orient the camera to look in the (-1, 0, -1) direction, with the datasets fitting in the views.
+Save a screenshot of both views in "materials/results/{agent_mode}/materials.png".
+Finally, save the ParaView state as "materials/results/{agent_mode}/materials.pvsm"

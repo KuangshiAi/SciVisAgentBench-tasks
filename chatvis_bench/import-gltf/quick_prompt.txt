@@ -1,0 +1,7 @@
+Please generate a ParaView Python script for the following operations.
+Load the “BlueGrayBackground” palette.
+Read the file “NestedRings.glb” and import the nodes “/assembly/Axle”, “assembly/OuterRing/Torus002”, and “assembly/OuterRing/MiddleRing/InnerRing”.
+Set the layout size to 300x300 pixels.
+Point the camera in the positive Y direction and zoom to fit.
+Make sure all views are rendered, then save a screenshot to “import-gltf-screenshot.png”.
+

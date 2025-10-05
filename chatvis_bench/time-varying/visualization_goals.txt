@@ -1,0 +1,7 @@
+1. Temporal Animation Quality: Does the animation smoothly progress through all time steps showing the evolution of the EQPS variable over time?
+
+2. Dual View Configuration: Are both render views properly configured with the second view showing temporal interpolation effects compared to the first?
+
+3. Color Mapping and Legend: Is the EQPS variable properly color-mapped with an appropriate color bar legend visible throughout the animation?
+
+4. View Direction and Layout: Is the +y direction view properly set and are both views arranged side-by-side in the correct layout configuration?

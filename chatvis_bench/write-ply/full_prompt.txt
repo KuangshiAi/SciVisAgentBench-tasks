@@ -1,0 +1,9 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object. Change the view size to 400x400.
+Show the wavelet object and reset the camera to fit the data.
+Next, create a contour of wavelet object from the dataset "RTData".
+The contour should have isosurfaces at the following values: 97.222075, 157.09105, 216.96002500000003, and 276.829.
+Show the contour and color it with the same colormap that is used for coloring "RTData".
+Finally, save the contour in PLY format to the file "PLYWriterData.ply".
+Save a screenshot to the file "write-ply-screenshot.png". 

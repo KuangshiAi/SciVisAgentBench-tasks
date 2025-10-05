@@ -1,0 +1,7 @@
+1. GLTF Export Quality: Is the wavelet object properly exported to GLTF format with correct surface representation and RTData coloring?
+
+2. GLTF Import and Display: Is the exported GLTF file successfully loaded and displayed as a surface with proper geometry?
+
+3. Texture Coordinate Coloring: Is the imported GLTF object correctly colored by TEXCOORD_0 with Cool to Warm colormap?
+
+4. Clean Presentation: Are the color bar and orientation axes properly hidden for a clean visualization appearance?

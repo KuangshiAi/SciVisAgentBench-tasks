@@ -1,0 +1,7 @@
+1. Block Color Mapping: Is the dataset properly colored by vtkBlockColors field with distinct block visualization?
+
+2. Individual Block Coloring: Is block_2 correctly colored using the x component of the ACCL variable with appropriate scaling?
+
+3. Color Transfer Functions: Are the color transfer functions properly applied with cool to warm coloring for the ACCL variable?
+
+4. View Configuration: Is the dataset displayed from the -y direction with blue-gray background and visible color bar legend?

@@ -1,0 +1,7 @@
+Read in the file named "climate/data/climate.vtp".
+Apply a calculator filter to convert velocity from geospatial to lat-long coordinates.
+Render the computed values using a tube filter with 0.05 radius, colored by velocity magnitude, and lit with maximum shininess and include normals for lighting.
+Add cone glyphs to show the direction of the velocity, using 10 polygons, radius 0.15, height 0.5, and scaling factor 0.5.
+View the result in the -z direction scaled so that the tubes occupy most of the image.
+Save a screenshot of the result, 2294 x 1440 pixels, white background, in the filename "climate/results/{agent_mode}/climate.png".
+Finally, save the ParaView state as "climate/results/{agent_mode}/climate.pvsm"

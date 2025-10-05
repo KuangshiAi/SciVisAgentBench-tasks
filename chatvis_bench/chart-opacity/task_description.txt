@@ -1,0 +1,4 @@
+Create a wavelet object.
+Create a plot over line chart from the wavelet with three paths: arc_length, Points_Z, and RTData variables with opacity for arc_length 1 and opacity for Points_Z and RTData 0.3.
+Save a screenshot in "chart-opacity/results/{agent_mode}/chart-opacity.png".
+Finally, save the ParaView state as "chart-opacity/results/{agent_mode}/chart-opacity.pvsm"

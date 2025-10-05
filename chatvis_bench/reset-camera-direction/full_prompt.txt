@@ -1,0 +1,5 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a Wavelet object, and set its representation to "Surface with Edges."
+Set the camera direction to [0.5, 1, 0.5].
+Save a screenshot to the file "reset-camera-direction-screenshot.png". 

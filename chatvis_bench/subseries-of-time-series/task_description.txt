@@ -1,0 +1,7 @@
+Read the file "subseries-of-time-series/data/subseries-of-time-series.ex2". Load two element blocks: the first is called 'Unnamed block ID: 1 Type: HEX', the second is called 'Unnamed block ID: 2 Type: HEX'.
+Next, slice this object with a plane with origin at [0.21706008911132812, 4.0, -5.110947132110596] and normal direction [1.0, 0.0, 0.0]. The plane should have no offset.
+Next, save this time series to a collection of .vtm files. The base file name for the time series is "subseries-of-time-series/results/{agent_mode}/canslices.vtm" and the suffix is '_%d'. Only save time steps with index between 10 and 20 inclusive, counting by 3.
+Next, load the files "subseries-of-time-series/results/{agent_mode}/canslices_10.vtm", "subseries-of-time-series/results/{agent_mode}/canslices_13.vtm", "subseries-of-time-series/results/{agent_mode}/canslices_16.vtm", and "subseries-of-time-series/results/{agent_mode}/canslices_19.vtm" in multi-block format.
+Finally, show the multi-block data set you just loaded.
+Save a screenshot to the file "subseries-of-time-series/results/{agent_mode}/subseries-of-time-series.png".
+Finally, save the ParaView state as "subseries-of-time-series/results/{agent_mode}/subseries-of-time-series.pvsm"

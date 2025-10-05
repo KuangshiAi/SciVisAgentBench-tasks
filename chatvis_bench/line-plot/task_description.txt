@@ -1,0 +1,5 @@
+Read the dataset in the file "line-plot/data/line-plot.ex2", and print the number of components and the range of all the variables.
+Show a default view of the dataset, colored by the variable Pres.
+Create a line plot over all the variables in the dataset, from (0,0,0) to (0,0,10).
+Write the values of the line plot in the file "line-plot/results/{agent_mode}/line-plot.csv", and save a screenshot of the line plot in "line-plot/results/{agent_mode}/line-plot.png".
+Finally, save the ParaView state as "line-plot/results/{agent_mode}/line-plot.pvsm"

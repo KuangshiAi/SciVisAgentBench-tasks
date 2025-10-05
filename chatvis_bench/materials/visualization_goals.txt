@@ -1,0 +1,7 @@
+1. Side-by-Side Comparison: Are both datasets properly displayed in side-by-side views with correct dimensions and labeling?
+
+2. Data Conversion and Filtering: Are the Intensity and Phase variables correctly converted to point data and isovolume filtering applied?
+
+3. Clipping and Color Mapping: Is the plane clipping correctly applied and Viridis colormap properly used for Phase variable?
+
+4. Camera and Layout: Is the camera positioned correctly in (-1, 0, -1) direction with appropriate fitting and legends visible?

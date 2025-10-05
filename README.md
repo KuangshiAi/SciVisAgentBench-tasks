@@ -14,10 +14,10 @@ All the volume datasets from http://klacansky.com/open-scivis-datasets/ have bee
 
 ### Directory Structure
 
-The datasets and tasks for ParaView-MCP and ChatVis are organized into the `main` and `sci_volume_data` folders, while `napari_mcp_evals` holds tasks and datasets for napari-MCP.
+The datasets and tasks for ParaView-MCP and ChatVis are organized into the `main`, the `sci_volume_data`, and the `chatvis_bench` folders, while `napari_mcp_evals` holds tasks and datasets for napari-MCP. The `chatvis_bench` folder contains 20 test cases from the official [ChatVis](https://github.com/tpeterka/ChatVis) benchmark.
 
 
-Each dataset in the `main` and `sci_volume_data` folders follows this structure:
+Each dataset in the `main`, the `sci_volume_data`, and the `chatvis_bench` folders follows this structure:
 ```
 dataset_name/
 ├── data/
@@ -48,6 +48,7 @@ SciVisAgentBench was mainly created by Kuangshi Ai (kai@nd.edu), Shusen Liu (liu
 
 - [ParaView-MCP](https://github.com/LLNL/paraview_mcp)
 - [Napari-MCP](https://github.com/LLNL/napari-mcp)
+- [ChatVis](https://github.com/tpeterka/ChatVis)
 
 ## License
 

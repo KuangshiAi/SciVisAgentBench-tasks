@@ -1,0 +1,7 @@
+1. Chart Generation: Is the plot over line chart properly created from the wavelet data showing all three specified variables?
+
+2. Variable Display: Are arc_length, Points_Z, and RTData variables all correctly plotted and distinguishable in the chart?
+
+3. Opacity Settings: Is the arc_length variable displayed with full opacity (1.0) while Points_Z and RTData show reduced opacity (0.3)?
+
+4. Chart Clarity: Does the chart provide clear visualization of the data trends with appropriate axis scaling and readable formatting?

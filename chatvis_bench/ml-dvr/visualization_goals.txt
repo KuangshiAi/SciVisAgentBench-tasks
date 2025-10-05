@@ -1,0 +1,7 @@
+1. Volume Rendering Quality: Is the volume rendering properly generated with appropriate opacity and color mapping that reveals internal structures?
+
+2. Transfer Function Application: Does the default transfer function effectively highlight meaningful data features and provide good visual contrast?
+
+3. Isometric View Setup: Is the visualization displayed from an isometric viewpoint that provides a clear three-dimensional perspective of the volume?
+
+4. Visual Clarity and Detail: Are the volume details clearly visible with proper lighting and shading that enhances depth perception?

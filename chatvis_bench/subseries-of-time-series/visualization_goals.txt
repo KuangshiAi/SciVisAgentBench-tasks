@@ -1,0 +1,7 @@
+1. Data Loading and Block Selection: Are the specified element blocks properly loaded and the slice plane correctly applied?
+
+2. Time Series Export: Is the time series correctly saved as VTM files with the specified time step range and interval?
+
+3. Multi-block Loading: Are the exported VTM files successfully loaded back as a multi-block dataset?
+
+4. Final Visualization: Is the multi-block dataset properly displayed showing the sliced geometry from the time series?

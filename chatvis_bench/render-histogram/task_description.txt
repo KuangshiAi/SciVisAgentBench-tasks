@@ -1,0 +1,9 @@
+Create a wavelet object.
+Render the RTDATA data in the wavelet and show the color bar.
+[optional: Make sure the colors are rescaled to the data range]
+[optional: Use the color map called 'Cool to Warm']
+
+Next, split the view to the right and create a histogram from RTDATA.
+Use the same color map as before.
+Save a screenshot of the line chart in the file "render-histogram/results/{agent_mode}/render-histogram.png".
+Finally, save the ParaView state as "render-histogram/results/{agent_mode}/render-histogram.pvsm"

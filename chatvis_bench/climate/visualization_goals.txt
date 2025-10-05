@@ -1,0 +1,7 @@
+1. Velocity Conversion: Is the calculator filter properly applied to convert velocity from geospatial to lat-long coordinates?
+
+2. Tube Visualization: Are the tubes rendered with correct radius (0.05), colored by velocity magnitude, and proper lighting with maximum shininess?
+
+3. Cone Glyph Direction: Are the cone glyphs properly configured with specified parameters and showing velocity direction accurately?
+
+4. View Configuration: Is the visualization displayed from -z direction with appropriate scaling and white background as specified?

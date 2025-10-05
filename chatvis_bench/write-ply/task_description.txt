@@ -1,0 +1,5 @@
+Create a cube object.
+Export the cube to a PLY file named "write-ply/results/{agent_mode}/cube.ply".
+Load the PLY file back into ParaView.
+Save a screenshot to "write-ply/results/{agent_mode}/write-ply.png".
+Finally, save the ParaView state as "write-ply/results/{agent_mode}/write-ply.pvsm"

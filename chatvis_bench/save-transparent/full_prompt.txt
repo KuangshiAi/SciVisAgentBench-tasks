@@ -1,0 +1,8 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object and show it.  Color the rendering by the variable ‘RTData’.
+Render the wavelet as a surface.  Hide the color bar.
+Next, set the layout size to be 300 pixels by 300 pixels.
+Next, move the camera with the following settings.  The camera position should be [30.273897726939246, 40.8733980301544, 43.48927935675712].  The camera view up should be [-0.3634544237682163, 0.7916848767068606, -0.49105594165731975]. The camera parallel scale should be 17.320508075688775.
+Finally, save a screenshot to the file “save-transparent-screenshot.png”, set the image resolution to 300x300, and set the background to transparent.
+

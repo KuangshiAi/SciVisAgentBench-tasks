@@ -1,0 +1,5 @@
+Create a wavelet object.
+Create a new calculator with the function 'RTData*iHat + ln(RTData)*jHat + coordsZ*kHat'.
+Get a color transfer function/color map and opacity transfer function/opacity map for the result of the calculation, scaling the color and/or opacity maps to the data range.
+For a surface representation, color by the x coordinate of the result using a cool to warm color map, show the color bar/color legend, and save a screenshot of size 1158 x 833 pixels in "color-data/results/{agent_mode}/color-data.png".
+Finally, save the ParaView state as "color-data/results/{agent_mode}/color-data.pvsm"

@@ -1,0 +1,4 @@
+Create a default sphere, hide it, and create a shrink filter from the sphere.
+Double the sphere's theta resolution while halving the shrink filter's shrink factor.
+Group the shrink filter and a wireframe of the sphere together, and save a screenshot of the result in "shrink-sphere/results/{agent_mode}/shrink-sphere.png", size 1920 x 1080 pixels with a white background.
+Finally, save the ParaView state as "shrink-sphere/results/{agent_mode}/shrink-sphere.pvsm"

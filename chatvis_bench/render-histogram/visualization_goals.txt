@@ -1,0 +1,7 @@
+1. Wavelet Visualization: Is the wavelet object properly rendered with RTDATA coloring and visible color bar?
+
+2. Split View Layout: Is the view correctly split with the wavelet visualization on the left and histogram on the right?
+
+3. Histogram Generation: Is the histogram properly generated from RTDATA showing the data distribution?
+
+4. Color Map Consistency: Are both the wavelet visualization and histogram using the same Cool to Warm color map?

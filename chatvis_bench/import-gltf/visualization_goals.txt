@@ -1,0 +1,7 @@
+1. GLTF Import Success: Are the specified GLTF nodes properly imported and displayed as separate geometric components?
+
+2. Node Selection: Are all three specified nodes (Axle, Torus002, InnerRing) correctly imported and visible?
+
+3. Camera Positioning: Is the camera positioned in the positive Y direction with appropriate zoom to fit all imported geometry?
+
+4. Layout Configuration: Is the view properly sized to 300x300 pixels with correct rendering and background palette?

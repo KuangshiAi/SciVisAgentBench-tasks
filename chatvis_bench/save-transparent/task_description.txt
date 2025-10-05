@@ -1,0 +1,4 @@
+Create a cone object.
+Set the transparency of the cone to be 50%.
+Save a screenshot with a transparent background in "save-transparent/results/{agent_mode}/save-transparent.png".
+Finally, save the ParaView state as "save-transparent/results/{agent_mode}/save-transparent.pvsm"

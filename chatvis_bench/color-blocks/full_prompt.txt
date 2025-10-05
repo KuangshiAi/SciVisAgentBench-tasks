@@ -1,0 +1,17 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Set the background to a blue-gray palette.
+Read the file 'can.ex2'.
+This is a multiblock dataset.
+Color the dataset by the vtkBlockColors field.
+Retrieve the color map for vtkBlockColors.
+Retrieve the opacity transfer function for vtkBlockColors.
+Retrieve the 2D transfer function for vtkBlockColors.
+Set block coloring for the block at /IOSS/element_blocks/block_2 using the variable ACCL on the x component of the points.
+Rescale the block's color and opacity maps to match the current data range of block_2.
+Retrieve the color transfer function for the ACCL variable of block_2.
+Enable the color bar for block_2.
+Apply a cool to warm color preset to the color map for block_2.
+Set the camera to look down the -y direction and to see the entire dataset.
+Save a screenshot of the visualization in the file 'color-blocks-screenshot.png'.
+

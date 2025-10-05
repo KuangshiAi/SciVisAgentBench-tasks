@@ -1,0 +1,4 @@
+Please generate a ParaView Python script for the following operations.
+Read in the file named 'ml-100.vtk', and generate an isosurface of the variable var0 at value 0.5.
+Save a screenshot of the result, size 1920 x 1080 pixels, in 'ml-iso-screenshot.png'.
+

@@ -1,0 +1,10 @@
+Please generate a ParaView Python script for the following operations.
+Read the file 'can.ex2'.
+Color the dataset by the vtkBlockColors field.
+Retrieve the color map, opacity transfer function, and 2D transfer function for vtkBlockColors.
+Set block coloring for the block at /IOSS/element_blocks/block_2 using the x component of the ACCL variable.
+Rescale the block's color and opacity maps to match the current data range of block_2.
+For the ACCL variable of block_2, retrieve the color transfer function, enable the color bar, and apply cool to warm
+coloring.
+View the entire dataset in the -y direction, and save a screenshot with blue-gray background in 'color-blocks-screenshot.png'.
+

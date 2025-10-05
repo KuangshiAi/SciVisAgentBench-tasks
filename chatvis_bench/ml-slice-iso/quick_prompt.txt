@@ -1,0 +1,3 @@
+Please generate a ParaView Python script for the following operations.
+Read in the file named ’ml-100.vtk’, slice the volume with a y-z plane at x=0, and take a contour, colored red, through the slice at the value 0.5.
+Save a screenshot of a +x direction view, size 1920 x 1080 pixels, of the result in ’ml-slice-iso-screenshot.png’.

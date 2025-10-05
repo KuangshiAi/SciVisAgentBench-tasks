@@ -1,0 +1,3 @@
+Create a Wavelet object, set its representation to "Surface with Edges", and set the camera direction to [0.5, 1, 0.5].
+Save a screenshot to the file "reset-camera-direction/results/{agent_mode}/reset-camera-direction.png".
+Finally, save the ParaView state as "reset-camera-direction/results/{agent_mode}/reset-camera-direction.pvsm"

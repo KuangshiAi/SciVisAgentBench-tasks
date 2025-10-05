@@ -1,0 +1,6 @@
+Load the "BlueGrayBackground" palette.
+Read the file "import-gltf/data/import-gltf.glb" and import the nodes "/assembly/Axle", "assembly/OuterRing/Torus002", and "assembly/OuterRing/MiddleRing/InnerRing".
+Set the layout size to 300x300 pixels.
+Point the camera in the positive Y direction and zoom to fit.
+Make sure all views are rendered, then save a screenshot to "import-gltf/results/{agent_mode}/import-gltf.png".
+Finally, save the ParaView state as "import-gltf/results/{agent_mode}/import-gltf.pvsm"

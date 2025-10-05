@@ -1,0 +1,7 @@
+1. Streamline Generation: Are streamlines properly traced following the V variable flow field with appropriate seeding from the point cloud?
+
+2. Tube and Glyph Rendering: Are streamlines rendered as tubes with cone glyphs properly attached showing flow direction and magnitude?
+
+3. Temperature Color Mapping: Are both streamlines and glyphs correctly colored by the Temp variable with appropriate color scaling?
+
+4. View Configuration: Is the visualization displayed from the correct +x view direction providing clear visibility of the flow patterns and structures?

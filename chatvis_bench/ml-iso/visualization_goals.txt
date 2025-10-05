@@ -1,0 +1,7 @@
+1. Isosurface Generation: Is the isosurface properly generated at the specified value (0.5) with correct topology and continuity?
+
+2. Surface Rendering Quality: Does the isosurface display smooth surfaces with appropriate shading and lighting that reveals the 3D structure?
+
+3. Geometric Accuracy: Are the surface features geometrically correct and free from artifacts or discontinuities?
+
+4. Visual Presentation: Is the isosurface clearly visible with good contrast and coloring that enhances the understanding of the data structure?

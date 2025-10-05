@@ -1,0 +1,5 @@
+Please generate a ParaView Python script for the following operations.
+Read in the file named 'disk.ex2', and trace streamlines of the V variable seeded from a default point cloud.
+Render the streamlines with tubes, adding cone glyphs to the streamlines, and coloring the streamlines and glyphs by the Temp variable.
+Save a screenshot of a +x view of the result, size 1920 x 1080 pixels, in 'stream-glyph-screenshot.png'.
+

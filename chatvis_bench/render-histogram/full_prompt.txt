@@ -1,0 +1,15 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object.
+Render the wavelet object with a surface representation, colored by the dataset RTDATA.
+Please show the color bar on the wavelet rendering.
+[optional: Make sure the colors are rescaled to the data range]
+[optional: Use the color map called 'Cool to Warm']
+
+Next, split the view horizontally with a new view on the right.
+Create a histogram from the wavelet object with the dataset RTDATA.
+Color the histogram with the same color transfer function as the wavelet rendering.
+Render the histogram.
+Save a screenshot of the line chart in the file 'render-histogram-screenshot.png'.
+
+[note: do we want to output a screenshot of the surface rendering too? This script creates two visualizations]

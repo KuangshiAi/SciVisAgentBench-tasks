@@ -1,0 +1,8 @@
+Please generate a ParaView Python script for the following operations.
+Read the dataset in the file "disk_out_ref.ex2".
+Print the number of components and the range of all the variables in the dataset.
+Show a default view of the dataset, colored by the pressure variable "Pres".
+Create a line plot over all the variables in the dataset, the line starting at (0,0,0) and ending at (0,0,10).
+Write the values of the line plot in the file "line-plot.csv".
+Visualize the line plot in a default view.
+Save a screenshot of the line plot in the file "line-plot-screenshot.png".

@@ -1,0 +1,8 @@
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object, the view size should be 400x400.
+Show the wavelet and zoom the camera to fit the data.
+Now create a contour from the wavelet using dataset "RTData".
+The contour isosurfaces should be: 97.222075, 157.09105, 216.96002500000003, and 276.829.
+Show the contour with the same colormap as "RTData".
+Finally, save the contour to the file "PLYWriterData.ply".
+Save a screenshot to the file "write-ply-screenshot.png". 

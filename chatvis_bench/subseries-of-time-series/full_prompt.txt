@@ -1,0 +1,9 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Read the file can.ex2 in ExodusII format.  Load two element blocks: the first is called ‘Unnamed block ID: 1 Type: HEX’, the second is called ‘Unnamed block ID: 2 Type: HEX’.
+Next, slice this object with a plane.  The plane should have its origin at [0.21706008911132812, 4.0, -5.110947132110596].  The normal of the slicing plane should be [1.0, 0.0, 0.0].  The offset of the plane should be 0.0.
+Next, I want you to save this time series to a collection of .vtm files.  The base file name for the time series is ‘canslices.vtm’.  The file name suffix is ‘_%d’. Therefore, I want you to append the time step index to the base file name with an underscore.  Only save time steps starting at index 10 and ending at index 20, counting by 3.
+Next, load four files into a VTK XML multi-block format.  The four files are ‘canslices_10.vtm’, ‘canslices_13.vtm’, ‘canslices_16.vtm’, and ‘canslices_19.vtm’.
+Finally, show the multi-block data set you just loaded.
+Save a screenshot to the file "subseries-of-time-series-screenshot.png".
+

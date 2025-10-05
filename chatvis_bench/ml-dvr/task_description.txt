@@ -1,0 +1,3 @@
+Read in the file named "ml-dvr/data/ml-dvr.vtk", and generate a volume rendering using the default transfer function.
+Save a screenshot, size 1920 x 1080 pixels, of an isometric view of the visualization in "ml-dvr/results/{agent_mode}/ml-dvr.png".
+Finally, save the ParaView state as "ml-dvr/results/{agent_mode}/ml-dvr.pvsm"

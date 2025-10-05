@@ -1,0 +1,9 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Load the color palette “BlueGrayBackground”.
+Read the file “NestedRings.glb” and import the nodes “/assembly/Axle”, “assembly/OuterRing/Torus002”, and “assembly/OuterRing/MiddleRing/InnerRing”.
+Set the layout size to 300 by 300 pixels.
+Change the camera to the Positive Y preset direction.
+Zoom the camera to fit the data.
+Make sure all views are rendered, then save a screenshot to the file “import-gltf-screenshot.png”.
+

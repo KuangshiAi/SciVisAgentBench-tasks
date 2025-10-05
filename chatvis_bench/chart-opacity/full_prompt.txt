@@ -1,0 +1,7 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object.
+Create a plot over line chart from the wavelet.
+Plot three paths, one each for arc_length, Points_Z, and RTData variables in the line chart.
+Set the opacity for arc_length to be 1 and the opacity for Points_Z and RTData to be 0.3.
+Save a screenshot of the line chart in the file 'chart-opacity-screenshot.png'.

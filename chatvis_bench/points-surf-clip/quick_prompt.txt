@@ -1,0 +1,4 @@
+Please generate a ParaView Python script for the following operations.
+Read in the file named 'can_points.ex2', generate an 3d Delaunay triangulation of the dataset, and clip with a y-z plane at x=0, keeping the -x half of the data.
+Save a screenshot of the result as a wireframe, image size 1920 x 1080 pixels, in 'points-surf-clip-screenshot.png'.
+

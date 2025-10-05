@@ -1,0 +1,3 @@
+Read in the file named "ml-iso/data/ml-iso.vtk", and generate an isosurface of the variable var0 at value 0.5.
+Save a screenshot of the result, size 1920 x 1080 pixels, in "ml-iso/results/{agent_mode}/ml-iso.png".
+Finally, save the ParaView state as "ml-iso/results/{agent_mode}/ml-iso.pvsm"

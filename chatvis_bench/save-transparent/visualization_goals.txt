@@ -1,0 +1,7 @@
+1. Cone Object Creation: Is the cone object properly created and displayed in the scene?
+
+2. Transparency Setting: Is the cone transparency correctly set to 50% showing partial see-through effect?
+
+3. Transparent Background: Is the screenshot saved with a properly transparent background instead of solid color?
+
+4. Visual Quality: Does the transparent cone maintain good visual quality and edge definition?

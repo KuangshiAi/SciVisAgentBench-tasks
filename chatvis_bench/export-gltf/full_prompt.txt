@@ -1,0 +1,15 @@
+I would like to use ParaView to visualize a dataset.
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object.
+Render the wavelet object with a 'Surface' representation and color by the 'RTData' variable.
+Ensure that the color map is scaled to the data set. 
+Do not display the color bar or orientation axes in the rendering.
+Export the view in GLTF format to the file 'ExportedGLTF.gltf'
+
+Next load the file 'ExportedGLTF.gltf' and show it with a surface representation.
+Color this object by the 'TEXCOORD_0' variable.
+Ensure that the color map is scaled to the data set.
+Use the 'Cool to Warm' colormap preset. 
+Do not display the color bar or orientation axes in the rendering.
+
+Save a screenshot of this view in the file 'export-gltf-screenshot.png'

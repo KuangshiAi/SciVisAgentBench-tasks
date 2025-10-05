@@ -1,0 +1,6 @@
+Please generate a ParaView Python script for the following operations.
+Create a wavelet object and render it as a surface.  Color the rendering by the variable ‘RTData’ but hide the color bar.
+Change the layout size to 300x300 pixels.
+Next, move the camera with the following settings.  The camera position should be [30.273897726939246, 40.8733980301544, 43.48927935675712].  The camera view up should be [-0.3634544237682163, 0.7916848767068606, -0.49105594165731975]. The camera parallel scale should be 17.320508075688775.
+Finally, save a screenshot to the file “save-transparent-screenshot.png” with resolution 300x300 and a transparent background.
+
